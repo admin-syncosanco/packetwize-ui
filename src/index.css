@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0e1a;
+  --accent: #00d4ff;
+}
+
+body {
+  background-color: var(--bg);
+  color: #e2e8f0;
+  font-family: "JetBrains Mono", monospace, system-ui;
+}
